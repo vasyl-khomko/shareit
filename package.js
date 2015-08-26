@@ -1,8 +1,8 @@
 Package.describe({
   summary: 'A meteor package that makes social sharing easy',
-  git: 'https://github.com/meteorclub/shareit',
+  git: 'https://github.com/vasyl-khomko/shareit.git',
   version: '0.4.0',
-  name: "joshowens:shareit"
+  name: "vasyl:shareit"
 });
 
 Package.onUse(function(api) {
@@ -35,7 +35,7 @@ Package.onTest(function (api) {
     'templating',
     'coffeescript'
     ])
-    api.use('joshowens:shareit')
+    api.use('vasyl:shareit')
 
   api.addFiles([
     'tests/client.html',
